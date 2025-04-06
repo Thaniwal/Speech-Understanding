@@ -1,0 +1,133 @@
+haris@LAPTOP-55FHUOP3 MINGW64 ~/Downloads/su_as2/Q2/Task_A
+$ python mfcc_extractor.py
+
+======= MFCC Feature Extraction =======
+
+Collecting audio files...
+Searching for audio files in: C:\Users\haris\Downloads\archive\Language_Detection_Dataset
+Available language directories: Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Punjabi, Tamil, Telugu, Urdu
+Found 25462 audio files for Hindi
+Found 24044 audio files for Malayalam
+Found 31960 audio files for Urdu
+Available language directories: Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Punjabi, Tamil, Telugu, Urdu
+Found 25462 audio files for Hindi
+Found 24044 audio files for Malayalam
+Found 31960 audio files for Urdu
+Found 25462 audio files for Hindi
+Found 24044 audio files for Malayalam
+Found 31960 audio files for Urdu
+Found 24044 audio files for Malayalam
+Found 31960 audio files for Urdu
+Found 31960 audio files for Urdu
+Found 27258 audio files for Bengali
+
+Extracting MFCC features...
+Extracting MFCC features...
+Determining appropriate MFCC standardization length...
+Using target MFCC length of 215 frames
+Processing Hindi audio files...
+Determining appropriate MFCC standardization length...
+Using target MFCC length of 215 frames
+Processing Hindi audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 25.45it/s] 
+Extracted MFCCs from 20 audio files for Hindi
+Processing Hindi audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 25.45it/s] 
+Extracted MFCCs from 20 audio files for Hindi
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 25.45it/s] 
+Extracted MFCCs from 20 audio files for Hindi
+Extracted MFCCs from 20 audio files for Hindi
+Processing Malayalam audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 25.28it/s] 
+Extracted MFCCs from 20 audio files for Malayalam
+Processing Urdu audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.10it/s] 
+Extracted MFCCs from 20 audio files for Urdu
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 25.28it/s] 
+Extracted MFCCs from 20 audio files for Malayalam
+Processing Urdu audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.10it/s] 
+Extracted MFCCs from 20 audio files for Urdu
+Extracted MFCCs from 20 audio files for Malayalam
+Processing Urdu audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.10it/s] 
+Extracted MFCCs from 20 audio files for Urdu
+Processing Urdu audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.10it/s] 
+Extracted MFCCs from 20 audio files for Urdu
+Processing Bengali audio files...
+Extracted MFCCs from 20 audio files for Urdu
+Processing Bengali audio files...
+Processing Bengali audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.24it/s] 
+Extracted MFCCs from 20 audio files for Bengali
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.24it/s] 
+Extracted MFCCs from 20 audio files for Bengali
+Extracted MFCCs from 20 audio files for Bengali
+Features saved to mfcc_features.pkl
+
+Feature extraction complete!
+
+haris@LAPTOP-55FHUOP3 MINGW64 ~/Downloads/su_as2/Q2/Task_A
+$ python mfcc_analysis.py
+MFCC Feature Extraction and Analysis
+====================================
+
+Collecting audio files...
+Searching for audio files in: C:\Users\haris\Downloads\archive\Language_Detection_Dataset
+Available language directories: Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Punjabi, Tamil, Telugu, Urdu
+Found 25462 audio files for Hindi
+Found 24044 audio files for Malayalam
+Found 31960 audio files for Urdu
+Found 27258 audio files for Bengali
+
+Extracting MFCC features (4000 samples per language)...
+Determining appropriate MFCC standardization length...
+Using target MFCC length of 215 frames
+Processing Hindi audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 4000/4000 [05:03<00:00, 13.16it/s] 
+Extracted MFCCs from 4000 audio files for Hindi
+Processing Malayalam audio files...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 4000/4000 [05:03<00:00, 13.16it/s] 
+Extracted MFCCs from 4000 audio files for Malayalam
+Processing Urdu audio files...
+100%|████████████████████████████████████████████████████████████████████████████████████████| 4000/4000 [05:03<00:00, 13.16it/s] 
+Extracted MFCCs from 4000 audio files for Urdu
+Processing Bengali audio files...
+100%|████████████████████████████████████████████████████████████████████████████████████████| 4000/4000 [04:57<00:00, 13.45it/s] 
+Extracted MFCCs from 4000 audio files for Bengali
+
+Saving MFCC features to mfcc_features_4k.pkl...
+Features saved successfully.
+
+Visualizing MFCC spectrograms...
+
+Calculating MFCC statistics...
+
+Performing statistical significance tests...
+
+ANOVA Results (Testing if at least one language has different means):
+MFCC_1: F=317.1585, p=0.0000, Significant: True
+MFCC_2: F=2293.3570, p=0.0000, Significant: True
+MFCC_3: F=668.5543, p=0.0000, Significant: True
+MFCC_4: F=1442.7287, p=0.0000, Significant: True
+MFCC_5: F=511.5516, p=0.0000, Significant: True
+MFCC_6: F=40.1060, p=0.0000, Significant: True
+MFCC_7: F=5347.3550, p=0.0000, Significant: True
+MFCC_8: F=187.2923, p=0.0000, Significant: True
+MFCC_9: F=1240.1822, p=0.0000, Significant: True
+MFCC_10: F=1906.1025, p=0.0000, Significant: True
+MFCC_11: F=430.2546, p=0.0000, Significant: True
+MFCC_12: F=2392.0471, p=0.0000, Significant: True
+MFCC_13: F=373.0259, p=0.0000, Significant: True
+
+Pairwise t-test Results:
+Hindi vs Malayalam: Mean p-value = 0.000000, Significant: True
+Hindi vs Urdu: Mean p-value = 0.000000, Significant: True
+Hindi vs Bengali: Mean p-value = 0.000000, Significant: True
+Malayalam vs Urdu: Mean p-value = 0.041711, Significant: True
+Malayalam vs Bengali: Mean p-value = 0.064510, Significant: False
+Urdu vs Bengali: Mean p-value = 0.025274, Significant: True
+
+Analysis complete! MFCC features saved for use in Task B.
+Feature file: C:\Users\haris\Downloads\su_as2\Q2\Task_A\mfcc_features_4k.pkl

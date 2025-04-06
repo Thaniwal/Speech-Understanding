@@ -1,0 +1,381 @@
+INFO:speechbrain.utils.quirks:Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+INFO:speechbrain.utils.quirks:Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+Using device: cuda:1
+Creating mixed train dataset...
+Found speaker directory at: /DATA/rl_gaming/su_wav/vox2/vox2_test_aac/aac
+Selected 50 speakers for training and 50 speakers for testing
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:06,  7.95it/s]  4%|▍         | 2/50 [00:00<00:05,  8.29it/s]  6%|▌         | 3/50 [00:00<00:05,  8.97it/s]  8%|▊         | 4/50 [00:00<00:04,  9.33it/s] 10%|█         | 5/50 [00:00<00:04,  9.28it/s] 12%|█▏        | 6/50 [00:00<00:04,  9.50it/s] 16%|█▌        | 8/50 [00:00<00:04,  9.53it/s] 18%|█▊        | 9/50 [00:00<00:04,  9.63it/s] 20%|██        | 10/50 [00:01<00:04,  9.72it/s] 22%|██▏       | 11/50 [00:01<00:04,  9.56it/s] 24%|██▍       | 12/50 [00:01<00:04,  9.45it/s] 26%|██▌       | 13/50 [00:01<00:04,  9.15it/s] 28%|██▊       | 14/50 [00:01<00:03,  9.16it/s] 30%|███       | 15/50 [00:01<00:03,  9.17it/s] 32%|███▏      | 16/50 [00:01<00:03,  8.97it/s] 34%|███▍      | 17/50 [00:01<00:03,  9.04it/s] 36%|███▌      | 18/50 [00:01<00:03,  9.29it/s] 38%|███▊      | 19/50 [00:02<00:03,  9.26it/s] 40%|████      | 20/50 [00:02<00:03,  9.24it/s] 42%|████▏     | 21/50 [00:02<00:03,  9.44it/s] 44%|████▍     | 22/50 [00:02<00:03,  8.56it/s] 46%|████▌     | 23/50 [00:02<00:03,  8.74it/s] 48%|████▊     | 24/50 [00:02<00:02,  9.07it/s] 50%|█████     | 25/50 [00:02<00:02,  9.32it/s] 52%|█████▏    | 26/50 [00:02<00:02,  9.28it/s] 54%|█████▍    | 27/50 [00:02<00:02,  9.25it/s] 56%|█████▌    | 28/50 [00:03<00:02,  9.45it/s] 58%|█████▊    | 29/50 [00:03<00:02,  9.37it/s] 60%|██████    | 30/50 [00:03<00:02,  9.54it/s] 62%|██████▏   | 31/50 [00:03<00:02,  8.42it/s] 64%|██████▍   | 32/50 [00:03<00:02,  8.64it/s] 66%|██████▌   | 33/50 [00:03<00:02,  8.42it/s] 68%|██████▊   | 34/50 [00:03<00:01,  8.28it/s] 70%|███████   | 35/50 [00:03<00:01,  8.53it/s] 72%|███████▏  | 36/50 [00:03<00:01,  8.54it/s] 74%|███████▍  | 37/50 [00:04<00:01,  8.92it/s] 76%|███████▌  | 38/50 [00:04<00:01,  9.00it/s] 78%|███████▊  | 39/50 [00:04<00:01,  9.05it/s] 80%|████████  | 40/50 [00:04<00:01,  9.30it/s] 84%|████████▍ | 42/50 [00:04<00:00,  9.42it/s] 86%|████████▌ | 43/50 [00:04<00:00,  9.36it/s] 88%|████████▊ | 44/50 [00:04<00:00,  9.51it/s] 90%|█████████ | 45/50 [00:04<00:00,  9.22it/s] 92%|█████████▏| 46/50 [00:05<00:00,  9.21it/s] 94%|█████████▍| 47/50 [00:05<00:00,  9.41it/s] 96%|█████████▌| 48/50 [00:05<00:00,  9.35it/s] 98%|█████████▊| 49/50 [00:05<00:00,  9.49it/s]100%|██████████| 50/50 [00:05<00:00,  9.62it/s]100%|██████████| 50/50 [00:05<00:00,  9.17it/s]
+Created 50 mixed train examples.
+Creating mixed test dataset...
+Found speaker directory at: /DATA/rl_gaming/su_wav/vox2/vox2_test_aac/aac
+Selected 50 speakers for training and 50 speakers for testing
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:05,  9.01it/s]  6%|▌         | 3/50 [00:00<00:04,  9.42it/s]  8%|▊         | 4/50 [00:00<00:04,  9.32it/s] 10%|█         | 5/50 [00:00<00:04,  9.28it/s] 12%|█▏        | 6/50 [00:00<00:04,  9.01it/s] 14%|█▍        | 7/50 [00:00<00:04,  9.07it/s] 16%|█▌        | 8/50 [00:00<00:04,  9.11it/s] 18%|█▊        | 9/50 [00:00<00:04,  9.35it/s] 20%|██        | 10/50 [00:01<00:04,  9.53it/s] 22%|██▏       | 11/50 [00:01<00:04,  9.42it/s] 24%|██▍       | 12/50 [00:01<00:04,  9.35it/s] 26%|██▌       | 13/50 [00:01<00:03,  9.52it/s] 28%|██▊       | 14/50 [00:01<00:03,  9.42it/s] 30%|███       | 15/50 [00:01<00:03,  9.35it/s] 32%|███▏      | 16/50 [00:01<00:03,  9.50it/s] 34%|███▍      | 17/50 [00:01<00:03,  9.40it/s] 36%|███▌      | 18/50 [00:01<00:03,  9.56it/s] 38%|███▊      | 19/50 [00:02<00:03,  9.68it/s] 40%|████      | 20/50 [00:02<00:03,  9.30it/s] 42%|████▏     | 21/50 [00:02<00:03,  9.49it/s] 44%|████▍     | 22/50 [00:02<00:02,  9.40it/s] 46%|████▌     | 23/50 [00:02<00:02,  9.33it/s] 48%|████▊     | 24/50 [00:02<00:03,  8.50it/s] 50%|█████     | 25/50 [00:02<00:02,  8.70it/s] 54%|█████▍    | 27/50 [00:02<00:02,  9.07it/s] 56%|█████▌    | 28/50 [00:03<00:02,  9.27it/s] 58%|█████▊    | 29/50 [00:03<00:02,  9.44it/s] 60%|██████    | 30/50 [00:03<00:02,  9.37it/s] 62%|██████▏   | 31/50 [00:03<00:01,  9.53it/s] 64%|██████▍   | 32/50 [00:03<00:01,  9.64it/s] 66%|██████▌   | 33/50 [00:03<00:01,  9.51it/s] 68%|██████▊   | 34/50 [00:03<00:01,  9.61it/s] 70%|███████   | 35/50 [00:03<00:01,  9.48it/s] 72%|███████▏  | 36/50 [00:03<00:01,  9.39it/s] 74%|███████▍  | 37/50 [00:03<00:01,  9.33it/s] 76%|███████▌  | 38/50 [00:04<00:01,  9.29it/s] 78%|███████▊  | 39/50 [00:04<00:01,  9.26it/s] 80%|████████  | 40/50 [00:04<00:01,  9.24it/s] 82%|████████▏ | 41/50 [00:04<00:00,  9.22it/s] 84%|████████▍ | 42/50 [00:04<00:00,  9.01it/s] 86%|████████▌ | 43/50 [00:04<00:00,  9.06it/s] 88%|████████▊ | 44/50 [00:04<00:00,  9.10it/s] 90%|█████████ | 45/50 [00:04<00:00,  9.34it/s] 92%|█████████▏| 46/50 [00:04<00:00,  9.29it/s] 94%|█████████▍| 47/50 [00:05<00:00,  9.48it/s] 96%|█████████▌| 48/50 [00:05<00:00,  9.62it/s] 98%|█████████▊| 49/50 [00:05<00:00,  9.48it/s]100%|██████████| 50/50 [00:05<00:00,  9.39it/s]100%|██████████| 50/50 [00:05<00:00,  9.32it/s]
+INFO:speechbrain.utils.fetching:Fetch hyperparams.yaml: Fetching from HuggingFace Hub 'speechbrain/sepformer-wsj02mix' if not cached
+INFO:speechbrain.utils.fetching:Fetch custom.py: Fetching from HuggingFace Hub 'speechbrain/sepformer-wsj02mix' if not cached
+INFO:speechbrain.utils.fetching:Fetch masknet.ckpt: Fetching from HuggingFace Hub 'speechbrain/sepformer-wsj02mix' if not cached
+INFO:speechbrain.utils.fetching:Fetch encoder.ckpt: Fetching from HuggingFace Hub 'speechbrain/sepformer-wsj02mix' if not cached
+INFO:speechbrain.utils.fetching:Fetch decoder.ckpt: Fetching from HuggingFace Hub 'speechbrain/sepformer-wsj02mix' if not cached
+INFO:speechbrain.utils.parameter_transfer:Loading pretrained files for: masknet, encoder, decoder
+Created 50 mixed test examples.
+
+Verifying mixed audio files...
+Loading SepFormer model...
+Separating speakers...
+Processing batch 0-5 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:04,  1.07s/it] 40%|████      | 2/5 [00:02<00:02,  1.00it/s] 60%|██████    | 3/5 [00:02<00:01,  1.05it/s] 80%|████████  | 4/5 [00:03<00:00,  1.08it/s]100%|██████████| 5/5 [00:04<00:00,  1.13it/s]100%|██████████| 5/5 [00:04<00:00,  1.08it/s]
+Mixture shape: torch.Size([1, 67584])
+Initial output shape: torch.Size([1, 67584, 2])
+Final est_sources shape: (2, 67584)
+Saving separated sources: (2, 67584)
+Loaded saved files: 67584, 67584 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 67584])
+Initial output shape: torch.Size([1, 67584, 2])
+Final est_sources shape: (2, 67584)
+Saving separated sources: (2, 67584)
+Loaded saved files: 67584, 67584 samples
+Saved progress: 5/50 items processed
+Processing batch 5-10 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.20it/s] 40%|████      | 2/5 [00:01<00:02,  1.21it/s] 60%|██████    | 3/5 [00:02<00:01,  1.18it/s] 80%|████████  | 4/5 [00:03<00:00,  1.18it/s]100%|██████████| 5/5 [00:04<00:00,  1.13it/s]100%|██████████| 5/5 [00:04<00:00,  1.16it/s]
+Mixture shape: torch.Size([1, 65536])
+Initial output shape: torch.Size([1, 65536, 2])
+Final est_sources shape: (2, 65536)
+Saving separated sources: (2, 65536)
+Loaded saved files: 65536, 65536 samples
+Mixture shape: torch.Size([1, 68608])
+Initial output shape: torch.Size([1, 68608, 2])
+Final est_sources shape: (2, 68608)
+Saving separated sources: (2, 68608)
+Loaded saved files: 68608, 68608 samples
+Mixture shape: torch.Size([1, 71680])
+Initial output shape: torch.Size([1, 71680, 2])
+Final est_sources shape: (2, 71680)
+Saving separated sources: (2, 71680)
+Loaded saved files: 71680, 71680 samples
+Mixture shape: torch.Size([1, 71680])
+Initial output shape: torch.Size([1, 71680, 2])
+Final est_sources shape: (2, 71680)
+Saving separated sources: (2, 71680)
+Loaded saved files: 71680, 71680 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Saved progress: 10/50 items processed
+Processing batch 10-15 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.19it/s] 40%|████      | 2/5 [00:01<00:02,  1.21it/s] 60%|██████    | 3/5 [00:02<00:01,  1.07it/s] 80%|████████  | 4/5 [00:03<00:00,  1.08it/s]100%|██████████| 5/5 [00:04<00:00,  1.10it/s]100%|██████████| 5/5 [00:04<00:00,  1.11it/s]
+Mixture shape: torch.Size([1, 67584])
+Initial output shape: torch.Size([1, 67584, 2])
+Final est_sources shape: (2, 67584)
+Saving separated sources: (2, 67584)
+Loaded saved files: 67584, 67584 samples
+Mixture shape: torch.Size([1, 67584])
+Initial output shape: torch.Size([1, 67584, 2])
+Final est_sources shape: (2, 67584)
+Saving separated sources: (2, 67584)
+Loaded saved files: 67584, 67584 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Saved progress: 15/50 items processed
+Processing batch 15-20 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.12it/s] 40%|████      | 2/5 [00:01<00:02,  1.12it/s] 60%|██████    | 3/5 [00:02<00:01,  1.13it/s] 80%|████████  | 4/5 [00:03<00:00,  1.11it/s]100%|██████████| 5/5 [00:04<00:00,  1.10it/s]100%|██████████| 5/5 [00:04<00:00,  1.11it/s]
+Mixture shape: torch.Size([1, 67584])
+Initial output shape: torch.Size([1, 67584, 2])
+Final est_sources shape: (2, 67584)
+Saving separated sources: (2, 67584)
+Loaded saved files: 67584, 67584 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 73728])
+Initial output shape: torch.Size([1, 73728, 2])
+Final est_sources shape: (2, 73728)
+Saving separated sources: (2, 73728)
+Loaded saved files: 73728, 73728 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Saved progress: 20/50 items processed
+Processing batch 20-25 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:02,  1.35it/s] 40%|████      | 2/5 [00:01<00:02,  1.22it/s] 60%|██████    | 3/5 [00:02<00:01,  1.15it/s] 80%|████████  | 4/5 [00:03<00:00,  1.06it/s]100%|██████████| 5/5 [00:04<00:00,  1.07it/s]100%|██████████| 5/5 [00:04<00:00,  1.11it/s]
+Mixture shape: torch.Size([1, 64512])
+Initial output shape: torch.Size([1, 64512, 2])
+Final est_sources shape: (2, 64512)
+Saving separated sources: (2, 64512)
+Loaded saved files: 64512, 64512 samples
+Mixture shape: torch.Size([1, 66560])
+Initial output shape: torch.Size([1, 66560, 2])
+Final est_sources shape: (2, 66560)
+Saving separated sources: (2, 66560)
+Loaded saved files: 66560, 66560 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Saved progress: 25/50 items processed
+Processing batch 25-30 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.20it/s] 40%|████      | 2/5 [00:01<00:02,  1.13it/s] 60%|██████    | 3/5 [00:02<00:01,  1.14it/s] 80%|████████  | 4/5 [00:03<00:00,  1.11it/s]100%|██████████| 5/5 [00:04<00:00,  1.09it/s]100%|██████████| 5/5 [00:04<00:00,  1.11it/s]
+Mixture shape: torch.Size([1, 70656])
+Initial output shape: torch.Size([1, 70656, 2])
+Final est_sources shape: (2, 70656)
+Saving separated sources: (2, 70656)
+Loaded saved files: 70656, 70656 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 69632])
+Initial output shape: torch.Size([1, 69632, 2])
+Final est_sources shape: (2, 69632)
+Saving separated sources: (2, 69632)
+Loaded saved files: 69632, 69632 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Saved progress: 30/50 items processed
+Processing batch 30-35 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.06it/s] 40%|████      | 2/5 [00:01<00:02,  1.06it/s] 60%|██████    | 3/5 [00:02<00:01,  1.17it/s] 80%|████████  | 4/5 [00:03<00:00,  1.24it/s]100%|██████████| 5/5 [00:04<00:00,  1.18it/s]100%|██████████| 5/5 [00:04<00:00,  1.16it/s]
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 64512])
+Initial output shape: torch.Size([1, 64512, 2])
+Final est_sources shape: (2, 64512)
+Saving separated sources: (2, 64512)
+Loaded saved files: 64512, 64512 samples
+Mixture shape: torch.Size([1, 64512])
+Initial output shape: torch.Size([1, 64512, 2])
+Final est_sources shape: (2, 64512)
+Saving separated sources: (2, 64512)
+Loaded saved files: 64512, 64512 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Saved progress: 35/50 items processed
+Processing batch 35-40 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.16it/s] 40%|████      | 2/5 [00:01<00:02,  1.09it/s] 60%|██████    | 3/5 [00:02<00:01,  1.08it/s] 80%|████████  | 4/5 [00:03<00:00,  1.11it/s]100%|██████████| 5/5 [00:04<00:00,  1.10it/s]100%|██████████| 5/5 [00:04<00:00,  1.10it/s]
+Mixture shape: torch.Size([1, 73728])
+Initial output shape: torch.Size([1, 73728, 2])
+Final est_sources shape: (2, 73728)
+Saving separated sources: (2, 73728)
+Loaded saved files: 73728, 73728 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 73728])
+Initial output shape: torch.Size([1, 73728, 2])
+Final est_sources shape: (2, 73728)
+Saving separated sources: (2, 73728)
+Loaded saved files: 73728, 73728 samples
+Mixture shape: torch.Size([1, 79872])
+Initial output shape: torch.Size([1, 79872, 2])
+Final est_sources shape: (2, 79872)
+Saving separated sources: (2, 79872)
+Loaded saved files: 79872, 79872 samples
+Saved progress: 40/50 items processed
+Processing batch 40-45 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.15it/s] 40%|████      | 2/5 [00:01<00:02,  1.00it/s] 60%|██████    | 3/5 [00:02<00:01,  1.10it/s] 80%|████████  | 4/5 [00:03<00:00,  1.13it/s]100%|██████████| 5/5 [00:04<00:00,  1.11it/s]100%|██████████| 5/5 [00:04<00:00,  1.10it/s]
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 70656])
+Initial output shape: torch.Size([1, 70656, 2])
+Final est_sources shape: (2, 70656)
+Saving separated sources: (2, 70656)
+Loaded saved files: 70656, 70656 samples
+Mixture shape: torch.Size([1, 65536])
+Initial output shape: torch.Size([1, 65536, 2])
+Final est_sources shape: (2, 65536)
+Saving separated sources: (2, 65536)
+Loaded saved files: 65536, 65536 samples
+Mixture shape: torch.Size([1, 69632])
+Initial output shape: torch.Size([1, 69632, 2])
+Final est_sources shape: (2, 69632)
+Saving separated sources: (2, 69632)
+Loaded saved files: 69632, 69632 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Saved progress: 45/50 items processed
+Processing batch 45-50 of 50
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:03,  1.19it/s] 40%|████      | 2/5 [00:01<00:02,  1.16it/s] 60%|██████    | 3/5 [00:02<00:01,  1.14it/s] 80%|████████  | 4/5 [00:03<00:00,  1.11it/s]100%|██████████| 5/5 [00:04<00:00,  1.12it/s]100%|██████████| 5/5 [00:04<00:00,  1.13it/s]
+Mixture shape: torch.Size([1, 67584])
+Initial output shape: torch.Size([1, 67584, 2])
+Final est_sources shape: (2, 67584)
+Saving separated sources: (2, 67584)
+Loaded saved files: 67584, 67584 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 80000])
+Initial output shape: torch.Size([1, 80000, 2])
+Final est_sources shape: (2, 80000)
+Saving separated sources: (2, 80000)
+Loaded saved files: 80000, 80000 samples
+Mixture shape: torch.Size([1, 65536])
+Initial output shape: torch.Size([1, 65536, 2])
+Final est_sources shape: (2, 65536)
+Saving separated sources: (2, 65536)
+Loaded saved files: 65536, 65536 samples
+Saved progress: 50/50 items processed
+
+Speaker Separation Metrics:
+  SDR: -0.1555
+  SIR: 3.0043
+  SAR: 5.3592
+  PESQ: 1.1399
+Separation complete.
+
+Loading speaker verification models...
+Loading feature extractor from /DATA/rl_gaming/results/feature_extractor.pkl
+Loading pre-trained model from /DATA/rl_gaming/results/pretrained_model.pt
+Successfully loaded pre-trained model
+Loading fine-tuned model from /DATA/rl_gaming/results/finetuned_model.pt
+Successfully loaded fine-tuned model
+Performing speaker identification on separated audio...
+Found speaker directory at: /DATA/rl_gaming/su_wav/vox2/vox2_test_aac/aac
+Selected 50 speakers for training and 50 speakers for testing
+Creating reference embeddings for all speakers...
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:00<00:17,  5.79it/s]  3%|▎         | 3/100 [00:00<00:10,  9.26it/s]  5%|▌         | 5/100 [00:00<00:09, 10.41it/s]  7%|▋         | 7/100 [00:00<00:08, 10.63it/s]  9%|▉         | 9/100 [00:00<00:08, 10.75it/s] 11%|█         | 11/100 [00:01<00:08, 11.05it/s] 13%|█▎        | 13/100 [00:01<00:07, 11.28it/s] 15%|█▌        | 15/100 [00:01<00:07, 11.45it/s] 17%|█▋        | 17/100 [00:01<00:07, 11.55it/s] 19%|█▉        | 19/100 [00:01<00:06, 11.64it/s] 21%|██        | 21/100 [00:01<00:06, 11.63it/s] 23%|██▎       | 23/100 [00:02<00:06, 11.67it/s] 25%|██▌       | 25/100 [00:02<00:06, 11.63it/s] 27%|██▋       | 27/100 [00:02<00:06, 11.57it/s] 29%|██▉       | 29/100 [00:02<00:06, 11.64it/s] 31%|███       | 31/100 [00:02<00:05, 11.58it/s] 33%|███▎      | 33/100 [00:02<00:05, 11.59it/s] 35%|███▌      | 35/100 [00:03<00:05, 11.62it/s] 37%|███▋      | 37/100 [00:03<00:05, 11.67it/s] 39%|███▉      | 39/100 [00:03<00:05, 11.48it/s] 41%|████      | 41/100 [00:03<00:05, 11.54it/s] 43%|████▎     | 43/100 [00:03<00:04, 11.61it/s] 45%|████▌     | 45/100 [00:03<00:04, 11.61it/s] 47%|████▋     | 47/100 [00:04<00:04, 11.65it/s] 49%|████▉     | 49/100 [00:04<00:04, 11.81it/s] 51%|█████     | 51/100 [00:04<00:04, 12.04it/s] 53%|█████▎    | 53/100 [00:04<00:03, 12.16it/s] 55%|█████▌    | 55/100 [00:04<00:03, 12.24it/s] 57%|█████▋    | 57/100 [00:04<00:03, 12.30it/s] 59%|█████▉    | 59/100 [00:05<00:03, 12.33it/s] 61%|██████    | 61/100 [00:05<00:03, 12.31it/s] 63%|██████▎   | 63/100 [00:05<00:02, 12.39it/s] 65%|██████▌   | 65/100 [00:05<00:02, 12.35it/s] 67%|██████▋   | 67/100 [00:05<00:02, 12.31it/s] 69%|██████▉   | 69/100 [00:05<00:02, 12.30it/s] 71%|███████   | 71/100 [00:06<00:02, 12.29it/s] 73%|███████▎  | 73/100 [00:06<00:02, 12.32it/s] 75%|███████▌  | 75/100 [00:06<00:02, 12.39it/s] 77%|███████▋  | 77/100 [00:06<00:01, 12.44it/s] 79%|███████▉  | 79/100 [00:06<00:01, 12.49it/s] 81%|████████  | 81/100 [00:06<00:01, 12.42it/s] 83%|████████▎ | 83/100 [00:07<00:01, 12.46it/s] 85%|████████▌ | 85/100 [00:07<00:01, 12.45it/s] 87%|████████▋ | 87/100 [00:07<00:01, 12.50it/s] 89%|████████▉ | 89/100 [00:07<00:00, 12.51it/s] 91%|█████████ | 91/100 [00:07<00:00, 12.53it/s] 93%|█████████▎| 93/100 [00:07<00:00, 12.01it/s] 95%|█████████▌| 95/100 [00:08<00:00, 11.90it/s] 97%|█████████▋| 97/100 [00:08<00:00, 12.10it/s] 99%|█████████▉| 99/100 [00:08<00:00, 12.05it/s]100%|██████████| 100/100 [00:08<00:00, 11.84it/s]
+Created reference embeddings for 100 speakers
+Identifying speakers in separated samples...
+Processing batch 0-10 of 50
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 14.42it/s] 40%|████      | 4/10 [00:00<00:00, 14.56it/s] 60%|██████    | 6/10 [00:00<00:00, 14.53it/s] 80%|████████  | 8/10 [00:00<00:00, 14.48it/s]100%|██████████| 10/10 [00:00<00:00, 14.41it/s]100%|██████████| 10/10 [00:00<00:00, 14.45it/s]
+Intermediate identification results:
+  Pre-trained Model: 0.1000
+  Fine-tuned Model: 0.1000
+Processing batch 10-20 of 50
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 14.32it/s] 40%|████      | 4/10 [00:00<00:00, 14.44it/s] 60%|██████    | 6/10 [00:00<00:00, 14.48it/s] 80%|████████  | 8/10 [00:00<00:00, 14.51it/s]100%|██████████| 10/10 [00:00<00:00, 14.53it/s]100%|██████████| 10/10 [00:00<00:00, 14.49it/s]
+Intermediate identification results:
+  Pre-trained Model: 0.1250
+  Fine-tuned Model: 0.1500
+Processing batch 20-30 of 50
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 14.42it/s] 40%|████      | 4/10 [00:00<00:00, 14.38it/s] 60%|██████    | 6/10 [00:00<00:00, 14.19it/s] 80%|████████  | 8/10 [00:00<00:00, 14.25it/s]100%|██████████| 10/10 [00:00<00:00, 14.23it/s]100%|██████████| 10/10 [00:00<00:00, 14.25it/s]
+Intermediate identification results:
+  Pre-trained Model: 0.1500
+  Fine-tuned Model: 0.1333
+Processing batch 30-40 of 50
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 13.40it/s] 40%|████      | 4/10 [00:00<00:00, 14.00it/s] 60%|██████    | 6/10 [00:00<00:00, 14.17it/s] 80%|████████  | 8/10 [00:00<00:00, 14.24it/s]100%|██████████| 10/10 [00:00<00:00, 14.37it/s]100%|██████████| 10/10 [00:00<00:00, 14.22it/s]
+Intermediate identification results:
+  Pre-trained Model: 0.1375
+  Fine-tuned Model: 0.1250
+Processing batch 40-50 of 50
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 14.38it/s] 40%|████      | 4/10 [00:00<00:00, 14.37it/s] 60%|██████    | 6/10 [00:00<00:00, 14.38it/s] 80%|████████  | 8/10 [00:00<00:00, 14.39it/s]100%|██████████| 10/10 [00:00<00:00, 14.04it/s]100%|██████████| 10/10 [00:00<00:00, 14.18it/s]
+Intermediate identification results:
+  Pre-trained Model: 0.1200
+  Fine-tuned Model: 0.1000
+
+Rank-1 Speaker Identification Accuracy:
+  Pre-trained model: 12.00%
+  Fine-tuned model:  10.00%
+Rank-1 accuracy comparison plot saved to /DATA/rl_gaming/results_iii_gpt/identification_comparison.png
+
+Analyzing similarity scores to diagnose low accuracy:
+  Pre-trained model average true speaker similarity: 0.9388
+  Pre-trained model average predicted speaker similarity: 0.9570
+  Fine-tuned model average true speaker similarity: 0.1888
+  Fine-tuned model average predicted speaker similarity: 0.3856
+
+=========== TASK III RESULTS SUMMARY ===========
+
+1. Speaker Separation Metrics:
+  - SDR: -0.1555
+  - SIR: 3.0043
+  - SAR: 5.3592
+  - PESQ: 1.1399
+
+2. Speaker Identification Results:
+  - Pre-trained model accuracy: 12.00%
+  - Fine-tuned model accuracy:  10.00%
+  - Total samples evaluated:    100
+
+3. Speaker Identification Detailed Analysis:
+  Pre-trained model: 12 correct, 88 incorrect out of 100
+  Fine-tuned model: 10 correct, 90 incorrect out of 100
+
+=================================================
+
+All results saved to /DATA/rl_gaming/results_iii_gpt

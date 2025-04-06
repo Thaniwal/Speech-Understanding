@@ -1,0 +1,85 @@
+haris@LAPTOP-55FHUOP3 MINGW64 ~/Downloads/su_as2/Q2/Task_B
+$ python model_training_and_analysis.py
+Language Classification Model Training and Evaluation
+====================================================
+
+Loading MFCC features from C:\Users\haris\Downloads\su_as2\Q2\Task_A\mfcc_features_4k.pkl...
+Loaded features for 4 languages: Hindi, Malayalam, Urdu, Bengali
+
+Preparing data for classification...
+Feature matrix shape: (16000, 13)
+Target labels shape: (16000,)
+
+Splitting data into training and testing sets (75:25)...
+Training set: 12000 samples
+Testing set: 4000 samples
+
+Scaling the feature data...
+Data scaling complete
+
+Training and evaluating classification models...
+
+Training Support Vector Machine...
+Support Vector Machine Accuracy: 0.9770
+
+Classification Report for Support Vector Machine:
+              precision    recall  f1-score   support
+
+     Bengali       0.96      0.97      0.97      1000
+       Hindi       0.99      0.98      0.99      1000
+   Malayalam       0.99      0.98      0.98      1000
+        Urdu       0.97      0.98      0.97      1000
+
+    accuracy                           0.98      4000
+   macro avg       0.98      0.98      0.98      4000
+weighted avg       0.98      0.98      0.98      4000
+
+
+Training Random Forest...
+Random Forest Accuracy: 0.9640
+
+Classification Report for Random Forest:
+              precision    recall  f1-score   support
+
+     Bengali       0.94      0.96      0.95      1000
+       Hindi       0.98      0.98      0.98      1000
+   Malayalam       0.98      0.96      0.97      1000
+       Hindi       0.98      0.98      0.98      1000
+   Malayalam       0.98      0.96      0.97      1000
+   Malayalam       0.98      0.96      0.97      1000
+        Urdu       0.96      0.96      0.96      1000
+
+        Urdu       0.96      0.96      0.96      1000
+
+    accuracy                           0.96      4000
+   macro avg       0.96      0.96      0.96      4000
+weighted avg       0.96      0.96      0.96      4000
+
+
+Training Neural Network...
+Neural Network Accuracy: 0.9720
+
+Classification Report for Neural Network:
+              precision    recall  f1-score   support
+
+     Bengali       0.96      0.96      0.96      1000
+       Hindi       0.98      0.97      0.98      1000
+     Bengali       0.96      0.96      0.96      1000
+       Hindi       0.98      0.97      0.98      1000
+   Malayalam       0.97      0.98      0.98      1000
+   Malayalam       0.97      0.98      0.98      1000
+        Urdu       0.97      0.97      0.97      1000
+
+
+    accuracy                           0.97      4000
+   macro avg       0.97      0.97      0.97      4000
+weighted avg       0.97      0.97      0.97      4000
+
+
+Visualizing results...
+
+Model training and evaluation complete!
+
+Best model: Support Vector Machine with accuracy 0.9770
+
+haris@LAPTOP-55FHUOP3 MINGW64 ~/Downloads/su_as2/Q2/Task_B

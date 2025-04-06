@@ -1,0 +1,3 @@
+model,accuracy,correct,total
+pretrained,0.12,12,100
+finetuned,0.1,10,100
