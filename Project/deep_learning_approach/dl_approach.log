@@ -1,0 +1,662 @@
+Using device: cuda
+Loaded 899 audio files from 9 genres
+Creating triplets for training...
+Training model...
+Epoch 1/20, Batch 1/282, Loss: 0.2933
+Epoch 1/20, Batch 11/282, Loss: 0.3266
+Epoch 1/20, Batch 21/282, Loss: 0.3256
+Epoch 1/20, Batch 31/282, Loss: 0.2702
+Epoch 1/20, Batch 41/282, Loss: 0.2847
+Epoch 1/20, Batch 51/282, Loss: 0.3000
+Epoch 1/20, Batch 61/282, Loss: 0.3646
+Epoch 1/20, Batch 71/282, Loss: 0.3191
+Epoch 1/20, Batch 81/282, Loss: 0.2829
+Epoch 1/20, Batch 91/282, Loss: 0.3005
+Epoch 1/20, Batch 101/282, Loss: 0.3048
+Epoch 1/20, Batch 111/282, Loss: 0.2558
+Epoch 1/20, Batch 121/282, Loss: 0.2938
+Epoch 1/20, Batch 131/282, Loss: 0.3682
+Epoch 1/20, Batch 141/282, Loss: 0.3239
+Epoch 1/20, Batch 151/282, Loss: 0.3007
+Epoch 1/20, Batch 161/282, Loss: 0.2982
+Epoch 1/20, Batch 171/282, Loss: 0.2912
+Epoch 1/20, Batch 181/282, Loss: 0.2514
+Epoch 1/20, Batch 191/282, Loss: 0.3223
+Epoch 1/20, Batch 201/282, Loss: 0.3073
+Epoch 1/20, Batch 211/282, Loss: 0.2700
+Epoch 1/20, Batch 221/282, Loss: 0.3409
+Epoch 1/20, Batch 231/282, Loss: 0.3050
+Epoch 1/20, Batch 241/282, Loss: 0.3193
+Epoch 1/20, Batch 251/282, Loss: 0.2869
+Epoch 1/20, Batch 261/282, Loss: 0.3412
+Epoch 1/20, Batch 271/282, Loss: 0.3163
+Epoch 1/20, Batch 281/282, Loss: 0.3295
+Epoch 1/20, Training Loss: 0.3041
+Epoch 1/20, Validation Loss: 0.3077
+New best model saved with validation loss: 0.3077
+Epoch 2/20, Batch 1/282, Loss: 0.2777
+Epoch 2/20, Batch 11/282, Loss: 0.2875
+Epoch 2/20, Batch 21/282, Loss: 0.3440
+Epoch 2/20, Batch 31/282, Loss: 0.3322
+Epoch 2/20, Batch 41/282, Loss: 0.2788
+Epoch 2/20, Batch 51/282, Loss: 0.3072
+Epoch 2/20, Batch 61/282, Loss: 0.3316
+Epoch 2/20, Batch 71/282, Loss: 0.3059
+Epoch 2/20, Batch 81/282, Loss: 0.2900
+Epoch 2/20, Batch 91/282, Loss: 0.3200
+Epoch 2/20, Batch 101/282, Loss: 0.2853
+Epoch 2/20, Batch 111/282, Loss: 0.2882
+Epoch 2/20, Batch 121/282, Loss: 0.2670
+Epoch 2/20, Batch 131/282, Loss: 0.2877
+Epoch 2/20, Batch 141/282, Loss: 0.2888
+Epoch 2/20, Batch 151/282, Loss: 0.3000
+Epoch 2/20, Batch 161/282, Loss: 0.3210
+Epoch 2/20, Batch 171/282, Loss: 0.2853
+Epoch 2/20, Batch 181/282, Loss: 0.3222
+Epoch 2/20, Batch 191/282, Loss: 0.3182
+Epoch 2/20, Batch 201/282, Loss: 0.2916
+Epoch 2/20, Batch 211/282, Loss: 0.3059
+Epoch 2/20, Batch 221/282, Loss: 0.2782
+Epoch 2/20, Batch 231/282, Loss: 0.2823
+Epoch 2/20, Batch 241/282, Loss: 0.2783
+Epoch 2/20, Batch 251/282, Loss: 0.2892
+Epoch 2/20, Batch 261/282, Loss: 0.2850
+Epoch 2/20, Batch 271/282, Loss: 0.3073
+Epoch 2/20, Batch 281/282, Loss: 0.2744
+Epoch 2/20, Training Loss: 0.3006
+Epoch 2/20, Validation Loss: 0.3130
+Epoch 3/20, Batch 1/282, Loss: 0.2887
+Epoch 3/20, Batch 11/282, Loss: 0.3025
+Epoch 3/20, Batch 21/282, Loss: 0.2888
+Epoch 3/20, Batch 31/282, Loss: 0.3017
+Epoch 3/20, Batch 41/282, Loss: 0.3181
+Epoch 3/20, Batch 51/282, Loss: 0.3112
+Epoch 3/20, Batch 61/282, Loss: 0.3075
+Epoch 3/20, Batch 71/282, Loss: 0.3055
+Epoch 3/20, Batch 81/282, Loss: 0.3093
+Epoch 3/20, Batch 91/282, Loss: 0.3513
+Epoch 3/20, Batch 101/282, Loss: 0.3264
+Epoch 3/20, Batch 111/282, Loss: 0.3068
+Epoch 3/20, Batch 121/282, Loss: 0.2976
+Epoch 3/20, Batch 131/282, Loss: 0.2933
+Epoch 3/20, Batch 141/282, Loss: 0.2842
+Epoch 3/20, Batch 151/282, Loss: 0.2919
+Epoch 3/20, Batch 161/282, Loss: 0.3286
+Epoch 3/20, Batch 171/282, Loss: 0.2784
+Epoch 3/20, Batch 181/282, Loss: 0.3020
+Epoch 3/20, Batch 191/282, Loss: 0.3026
+Epoch 3/20, Batch 201/282, Loss: 0.3397
+Epoch 3/20, Batch 211/282, Loss: 0.3070
+Epoch 3/20, Batch 221/282, Loss: 0.2948
+Epoch 3/20, Batch 231/282, Loss: 0.3279
+Epoch 3/20, Batch 241/282, Loss: 0.2953
+Epoch 3/20, Batch 251/282, Loss: 0.2898
+Epoch 3/20, Batch 261/282, Loss: 0.2840
+Epoch 3/20, Batch 271/282, Loss: 0.3339
+Epoch 3/20, Batch 281/282, Loss: 0.3021
+Epoch 3/20, Training Loss: 0.3018
+Epoch 3/20, Validation Loss: 0.3096
+Epoch 4/20, Batch 1/282, Loss: 0.2811
+Epoch 4/20, Batch 11/282, Loss: 0.3166
+Epoch 4/20, Batch 21/282, Loss: 0.2998
+Epoch 4/20, Batch 31/282, Loss: 0.3152
+Epoch 4/20, Batch 41/282, Loss: 0.2915
+Epoch 4/20, Batch 51/282, Loss: 0.2988
+Epoch 4/20, Batch 61/282, Loss: 0.2349
+Epoch 4/20, Batch 71/282, Loss: 0.2922
+Epoch 4/20, Batch 81/282, Loss: 0.2712
+Epoch 4/20, Batch 91/282, Loss: 0.3255
+Epoch 4/20, Batch 101/282, Loss: 0.3021
+Epoch 4/20, Batch 111/282, Loss: 0.2497
+Epoch 4/20, Batch 121/282, Loss: 0.2861
+Epoch 4/20, Batch 131/282, Loss: 0.2219
+Epoch 4/20, Batch 141/282, Loss: 0.3306
+Epoch 4/20, Batch 151/282, Loss: 0.2971
+Epoch 4/20, Batch 161/282, Loss: 0.3021
+Epoch 4/20, Batch 171/282, Loss: 0.3093
+Epoch 4/20, Batch 181/282, Loss: 0.2926
+Epoch 4/20, Batch 191/282, Loss: 0.3423
+Epoch 4/20, Batch 201/282, Loss: 0.3075
+Epoch 4/20, Batch 211/282, Loss: 0.2873
+Epoch 4/20, Batch 221/282, Loss: 0.3376
+Epoch 4/20, Batch 231/282, Loss: 0.3000
+Epoch 4/20, Batch 241/282, Loss: 0.3066
+Epoch 4/20, Batch 251/282, Loss: 0.3066
+Epoch 4/20, Batch 261/282, Loss: 0.3160
+Epoch 4/20, Batch 271/282, Loss: 0.3043
+Epoch 4/20, Batch 281/282, Loss: 0.2756
+Epoch 4/20, Training Loss: 0.3015
+Epoch 4/20, Validation Loss: 0.3030
+New best model saved with validation loss: 0.3030
+Epoch 5/20, Batch 1/282, Loss: 0.3287
+Epoch 5/20, Batch 11/282, Loss: 0.2736
+Epoch 5/20, Batch 21/282, Loss: 0.3060
+Epoch 5/20, Batch 31/282, Loss: 0.3259
+Epoch 5/20, Batch 41/282, Loss: 0.2983
+Epoch 5/20, Batch 51/282, Loss: 0.2815
+Epoch 5/20, Batch 61/282, Loss: 0.2829
+Epoch 5/20, Batch 71/282, Loss: 0.2853
+Epoch 5/20, Batch 81/282, Loss: 0.3107
+Epoch 5/20, Batch 91/282, Loss: 0.3384
+Epoch 5/20, Batch 101/282, Loss: 0.2058
+Epoch 5/20, Batch 111/282, Loss: 0.2835
+Epoch 5/20, Batch 121/282, Loss: 0.3051
+Epoch 5/20, Batch 131/282, Loss: 0.3220
+Epoch 5/20, Batch 141/282, Loss: 0.2975
+Epoch 5/20, Batch 151/282, Loss: 0.2936
+Epoch 5/20, Batch 161/282, Loss: 0.3219
+Epoch 5/20, Batch 171/282, Loss: 0.3361
+Epoch 5/20, Batch 181/282, Loss: 0.2917
+Epoch 5/20, Batch 191/282, Loss: 0.2819
+Epoch 5/20, Batch 201/282, Loss: 0.2855
+Epoch 5/20, Batch 211/282, Loss: 0.3295
+Epoch 5/20, Batch 221/282, Loss: 0.3314
+Epoch 5/20, Batch 231/282, Loss: 0.2896
+Epoch 5/20, Batch 241/282, Loss: 0.3196
+Epoch 5/20, Batch 251/282, Loss: 0.2822
+Epoch 5/20, Batch 261/282, Loss: 0.3040
+Epoch 5/20, Batch 271/282, Loss: 0.2638
+Epoch 5/20, Batch 281/282, Loss: 0.2984
+Epoch 5/20, Training Loss: 0.2985
+Epoch 5/20, Validation Loss: 0.3126
+Epoch 6/20, Batch 1/282, Loss: 0.2457
+Epoch 6/20, Batch 11/282, Loss: 0.2926
+Epoch 6/20, Batch 21/282, Loss: 0.3184
+Epoch 6/20, Batch 31/282, Loss: 0.3066
+Epoch 6/20, Batch 41/282, Loss: 0.2521
+Epoch 6/20, Batch 51/282, Loss: 0.2770
+Epoch 6/20, Batch 61/282, Loss: 0.3026
+Epoch 6/20, Batch 71/282, Loss: 0.3098
+Epoch 6/20, Batch 81/282, Loss: 0.2838
+Epoch 6/20, Batch 91/282, Loss: 0.2891
+Epoch 6/20, Batch 101/282, Loss: 0.3274
+Epoch 6/20, Batch 111/282, Loss: 0.3265
+Epoch 6/20, Batch 121/282, Loss: 0.2971
+Epoch 6/20, Batch 131/282, Loss: 0.2806
+Epoch 6/20, Batch 141/282, Loss: 0.2999
+Epoch 6/20, Batch 151/282, Loss: 0.2893
+Epoch 6/20, Batch 161/282, Loss: 0.3258
+Epoch 6/20, Batch 171/282, Loss: 0.3283
+Epoch 6/20, Batch 181/282, Loss: 0.2753
+Epoch 6/20, Batch 191/282, Loss: 0.3023
+Epoch 6/20, Batch 201/282, Loss: 0.3321
+Epoch 6/20, Batch 211/282, Loss: 0.2664
+Epoch 6/20, Batch 221/282, Loss: 0.2740
+Epoch 6/20, Batch 231/282, Loss: 0.3029
+Epoch 6/20, Batch 241/282, Loss: 0.3313
+Epoch 6/20, Batch 251/282, Loss: 0.2991
+Epoch 6/20, Batch 261/282, Loss: 0.2769
+Epoch 6/20, Batch 271/282, Loss: 0.2983
+Epoch 6/20, Batch 281/282, Loss: 0.2798
+Epoch 6/20, Training Loss: 0.2986
+Epoch 6/20, Validation Loss: 0.3069
+Epoch 7/20, Batch 1/282, Loss: 0.2637
+Epoch 7/20, Batch 11/282, Loss: 0.3354
+Epoch 7/20, Batch 21/282, Loss: 0.3282
+Epoch 7/20, Batch 31/282, Loss: 0.2753
+Epoch 7/20, Batch 41/282, Loss: 0.2653
+Epoch 7/20, Batch 51/282, Loss: 0.3065
+Epoch 7/20, Batch 61/282, Loss: 0.3314
+Epoch 7/20, Batch 71/282, Loss: 0.3219
+Epoch 7/20, Batch 81/282, Loss: 0.3285
+Epoch 7/20, Batch 91/282, Loss: 0.2634
+Epoch 7/20, Batch 101/282, Loss: 0.3393
+Epoch 7/20, Batch 111/282, Loss: 0.2963
+Epoch 7/20, Batch 121/282, Loss: 0.3171
+Epoch 7/20, Batch 131/282, Loss: 0.2703
+Epoch 7/20, Batch 141/282, Loss: 0.3019
+Epoch 7/20, Batch 151/282, Loss: 0.2993
+Epoch 7/20, Batch 161/282, Loss: 0.2718
+Epoch 7/20, Batch 171/282, Loss: 0.2956
+Epoch 7/20, Batch 181/282, Loss: 0.3247
+Epoch 7/20, Batch 191/282, Loss: 0.3099
+Epoch 7/20, Batch 201/282, Loss: 0.2733
+Epoch 7/20, Batch 211/282, Loss: 0.2654
+Epoch 7/20, Batch 221/282, Loss: 0.2804
+Epoch 7/20, Batch 231/282, Loss: 0.3592
+Epoch 7/20, Batch 241/282, Loss: 0.2483
+Epoch 7/20, Batch 251/282, Loss: 0.3084
+Epoch 7/20, Batch 261/282, Loss: 0.2871
+Epoch 7/20, Batch 271/282, Loss: 0.2906
+Epoch 7/20, Batch 281/282, Loss: 0.2741
+Epoch 7/20, Training Loss: 0.2998
+Epoch 7/20, Validation Loss: 0.3030
+New best model saved with validation loss: 0.3030
+Epoch 8/20, Batch 1/282, Loss: 0.2721
+Epoch 8/20, Batch 11/282, Loss: 0.2999
+Epoch 8/20, Batch 21/282, Loss: 0.3226
+Epoch 8/20, Batch 31/282, Loss: 0.3016
+Epoch 8/20, Batch 41/282, Loss: 0.3330
+Epoch 8/20, Batch 51/282, Loss: 0.3065
+Epoch 8/20, Batch 61/282, Loss: 0.3515
+Epoch 8/20, Batch 71/282, Loss: 0.2978
+Epoch 8/20, Batch 81/282, Loss: 0.2904
+Epoch 8/20, Batch 91/282, Loss: 0.3098
+Epoch 8/20, Batch 101/282, Loss: 0.2850
+Epoch 8/20, Batch 111/282, Loss: 0.2804
+Epoch 8/20, Batch 121/282, Loss: 0.3127
+Epoch 8/20, Batch 131/282, Loss: 0.2931
+Epoch 8/20, Batch 141/282, Loss: 0.2958
+Epoch 8/20, Batch 151/282, Loss: 0.2766
+Epoch 8/20, Batch 161/282, Loss: 0.2921
+Epoch 8/20, Batch 171/282, Loss: 0.3306
+Epoch 8/20, Batch 181/282, Loss: 0.3030
+Epoch 8/20, Batch 191/282, Loss: 0.3042
+Epoch 8/20, Batch 201/282, Loss: 0.3002
+Epoch 8/20, Batch 211/282, Loss: 0.2893
+Epoch 8/20, Batch 221/282, Loss: 0.3007
+Epoch 8/20, Batch 231/282, Loss: 0.2943
+Epoch 8/20, Batch 241/282, Loss: 0.2861
+Epoch 8/20, Batch 251/282, Loss: 0.2961
+Epoch 8/20, Batch 261/282, Loss: 0.2935
+Epoch 8/20, Batch 271/282, Loss: 0.3249
+Epoch 8/20, Batch 281/282, Loss: 0.2666
+Epoch 8/20, Training Loss: 0.3007
+Epoch 8/20, Validation Loss: 0.3024
+New best model saved with validation loss: 0.3024
+Epoch 9/20, Batch 1/282, Loss: 0.2874
+Epoch 9/20, Batch 11/282, Loss: 0.3392
+Epoch 9/20, Batch 21/282, Loss: 0.2976
+Epoch 9/20, Batch 31/282, Loss: 0.3025
+Epoch 9/20, Batch 41/282, Loss: 0.3176
+Epoch 9/20, Batch 51/282, Loss: 0.3194
+Epoch 9/20, Batch 61/282, Loss: 0.2776
+Epoch 9/20, Batch 71/282, Loss: 0.2874
+Epoch 9/20, Batch 81/282, Loss: 0.3134
+Epoch 9/20, Batch 91/282, Loss: 0.3280
+Epoch 9/20, Batch 101/282, Loss: 0.2982
+Epoch 9/20, Batch 111/282, Loss: 0.3295
+Epoch 9/20, Batch 121/282, Loss: 0.2785
+Epoch 9/20, Batch 131/282, Loss: 0.3058
+Epoch 9/20, Batch 141/282, Loss: 0.3459
+Epoch 9/20, Batch 151/282, Loss: 0.2594
+Epoch 9/20, Batch 161/282, Loss: 0.2839
+Epoch 9/20, Batch 171/282, Loss: 0.3064
+Epoch 9/20, Batch 181/282, Loss: 0.3262
+Epoch 9/20, Batch 191/282, Loss: 0.3143
+Epoch 9/20, Batch 201/282, Loss: 0.2858
+Epoch 9/20, Batch 211/282, Loss: 0.3101
+Epoch 9/20, Batch 221/282, Loss: 0.3370
+Epoch 9/20, Batch 231/282, Loss: 0.2987
+Epoch 9/20, Batch 241/282, Loss: 0.3247
+Epoch 9/20, Batch 251/282, Loss: 0.2875
+Epoch 9/20, Batch 261/282, Loss: 0.3114
+Epoch 9/20, Batch 271/282, Loss: 0.3343
+Epoch 9/20, Batch 281/282, Loss: 0.2925
+Epoch 9/20, Training Loss: 0.3012
+Epoch 9/20, Validation Loss: 0.3036
+Epoch 10/20, Batch 1/282, Loss: 0.3059
+Epoch 10/20, Batch 11/282, Loss: 0.2730
+Epoch 10/20, Batch 21/282, Loss: 0.2835
+Epoch 10/20, Batch 31/282, Loss: 0.3020
+Epoch 10/20, Batch 41/282, Loss: 0.3222
+Epoch 10/20, Batch 51/282, Loss: 0.2769
+Epoch 10/20, Batch 61/282, Loss: 0.2808
+Epoch 10/20, Batch 71/282, Loss: 0.3022
+Epoch 10/20, Batch 81/282, Loss: 0.3172
+Epoch 10/20, Batch 91/282, Loss: 0.3223
+Epoch 10/20, Batch 101/282, Loss: 0.3144
+Epoch 10/20, Batch 111/282, Loss: 0.3073
+Epoch 10/20, Batch 121/282, Loss: 0.2946
+Epoch 10/20, Batch 131/282, Loss: 0.2672
+Epoch 10/20, Batch 141/282, Loss: 0.3281
+Epoch 10/20, Batch 151/282, Loss: 0.2990
+Epoch 10/20, Batch 161/282, Loss: 0.3149
+Epoch 10/20, Batch 171/282, Loss: 0.2841
+Epoch 10/20, Batch 181/282, Loss: 0.2885
+Epoch 10/20, Batch 191/282, Loss: 0.2840
+Epoch 10/20, Batch 201/282, Loss: 0.3178
+Epoch 10/20, Batch 211/282, Loss: 0.3321
+Epoch 10/20, Batch 221/282, Loss: 0.3075
+Epoch 10/20, Batch 231/282, Loss: 0.2630
+Epoch 10/20, Batch 241/282, Loss: 0.2961
+Epoch 10/20, Batch 251/282, Loss: 0.3019
+Epoch 10/20, Batch 261/282, Loss: 0.2709
+Epoch 10/20, Batch 271/282, Loss: 0.2865
+Epoch 10/20, Batch 281/282, Loss: 0.3123
+Epoch 10/20, Training Loss: 0.2995
+Epoch 10/20, Validation Loss: 0.3075
+Epoch 11/20, Batch 1/282, Loss: 0.2714
+Epoch 11/20, Batch 11/282, Loss: 0.3270
+Epoch 11/20, Batch 21/282, Loss: 0.3092
+Epoch 11/20, Batch 31/282, Loss: 0.3178
+Epoch 11/20, Batch 41/282, Loss: 0.3070
+Epoch 11/20, Batch 51/282, Loss: 0.2979
+Epoch 11/20, Batch 61/282, Loss: 0.3140
+Epoch 11/20, Batch 71/282, Loss: 0.2984
+Epoch 11/20, Batch 81/282, Loss: 0.2870
+Epoch 11/20, Batch 91/282, Loss: 0.3175
+Epoch 11/20, Batch 101/282, Loss: 0.3242
+Epoch 11/20, Batch 111/282, Loss: 0.2993
+Epoch 11/20, Batch 121/282, Loss: 0.2723
+Epoch 11/20, Batch 131/282, Loss: 0.3148
+Epoch 11/20, Batch 141/282, Loss: 0.2870
+Epoch 11/20, Batch 151/282, Loss: 0.3052
+Epoch 11/20, Batch 161/282, Loss: 0.3329
+Epoch 11/20, Batch 171/282, Loss: 0.2898
+Epoch 11/20, Batch 181/282, Loss: 0.3065
+Epoch 11/20, Batch 191/282, Loss: 0.3137
+Epoch 11/20, Batch 201/282, Loss: 0.2885
+Epoch 11/20, Batch 211/282, Loss: 0.2921
+Epoch 11/20, Batch 221/282, Loss: 0.3030
+Epoch 11/20, Batch 231/282, Loss: 0.2918
+Epoch 11/20, Batch 241/282, Loss: 0.2898
+Epoch 11/20, Batch 251/282, Loss: 0.3267
+Epoch 11/20, Batch 261/282, Loss: 0.3419
+Epoch 11/20, Batch 271/282, Loss: 0.3081
+Epoch 11/20, Batch 281/282, Loss: 0.2807
+Epoch 11/20, Training Loss: 0.3013
+Epoch 11/20, Validation Loss: 0.3047
+Epoch 12/20, Batch 1/282, Loss: 0.3063
+Epoch 12/20, Batch 11/282, Loss: 0.2958
+Epoch 12/20, Batch 21/282, Loss: 0.2692
+Epoch 12/20, Batch 31/282, Loss: 0.3075
+Epoch 12/20, Batch 41/282, Loss: 0.2632
+Epoch 12/20, Batch 51/282, Loss: 0.3505
+Epoch 12/20, Batch 61/282, Loss: 0.2824
+Epoch 12/20, Batch 71/282, Loss: 0.2681
+Epoch 12/20, Batch 81/282, Loss: 0.2980
+Epoch 12/20, Batch 91/282, Loss: 0.2695
+Epoch 12/20, Batch 101/282, Loss: 0.3381
+Epoch 12/20, Batch 111/282, Loss: 0.3066
+Epoch 12/20, Batch 121/282, Loss: 0.3096
+Epoch 12/20, Batch 131/282, Loss: 0.3128
+Epoch 12/20, Batch 141/282, Loss: 0.3118
+Epoch 12/20, Batch 151/282, Loss: 0.3135
+Epoch 12/20, Batch 161/282, Loss: 0.2934
+Epoch 12/20, Batch 171/282, Loss: 0.3170
+Epoch 12/20, Batch 181/282, Loss: 0.3116
+Epoch 12/20, Batch 191/282, Loss: 0.3078
+Epoch 12/20, Batch 201/282, Loss: 0.2940
+Epoch 12/20, Batch 211/282, Loss: 0.3005
+Epoch 12/20, Batch 221/282, Loss: 0.3293
+Epoch 12/20, Batch 231/282, Loss: 0.3098
+Epoch 12/20, Batch 241/282, Loss: 0.2839
+Epoch 12/20, Batch 251/282, Loss: 0.2981
+Epoch 12/20, Batch 261/282, Loss: 0.2862
+Epoch 12/20, Batch 271/282, Loss: 0.3139
+Epoch 12/20, Batch 281/282, Loss: 0.2817
+Epoch 12/20, Training Loss: 0.2999
+Epoch 12/20, Validation Loss: 0.3036
+Epoch 13/20, Batch 1/282, Loss: 0.3085
+Epoch 13/20, Batch 11/282, Loss: 0.2886
+Epoch 13/20, Batch 21/282, Loss: 0.3379
+Epoch 13/20, Batch 31/282, Loss: 0.3093
+Epoch 13/20, Batch 41/282, Loss: 0.3007
+Epoch 13/20, Batch 51/282, Loss: 0.3315
+Epoch 13/20, Batch 61/282, Loss: 0.2986
+Epoch 13/20, Batch 71/282, Loss: 0.3383
+Epoch 13/20, Batch 81/282, Loss: 0.2832
+Epoch 13/20, Batch 91/282, Loss: 0.3090
+Epoch 13/20, Batch 101/282, Loss: 0.2953
+Epoch 13/20, Batch 111/282, Loss: 0.3368
+Epoch 13/20, Batch 121/282, Loss: 0.3133
+Epoch 13/20, Batch 131/282, Loss: 0.3075
+Epoch 13/20, Batch 141/282, Loss: 0.3320
+Epoch 13/20, Batch 151/282, Loss: 0.2977
+Epoch 13/20, Batch 161/282, Loss: 0.3209
+Epoch 13/20, Batch 171/282, Loss: 0.2888
+Epoch 13/20, Batch 181/282, Loss: 0.2761
+Epoch 13/20, Batch 191/282, Loss: 0.2807
+Epoch 13/20, Batch 201/282, Loss: 0.2866
+Epoch 13/20, Batch 211/282, Loss: 0.3173
+Epoch 13/20, Batch 221/282, Loss: 0.2270
+Epoch 13/20, Batch 231/282, Loss: 0.3317
+Epoch 13/20, Batch 241/282, Loss: 0.3052
+Epoch 13/20, Batch 251/282, Loss: 0.3169
+Epoch 13/20, Batch 261/282, Loss: 0.3023
+Epoch 13/20, Batch 271/282, Loss: 0.3210
+Epoch 13/20, Batch 281/282, Loss: 0.3117
+Epoch 13/20, Training Loss: 0.2987
+Epoch 13/20, Validation Loss: 0.2947
+New best model saved with validation loss: 0.2947
+Epoch 14/20, Batch 1/282, Loss: 0.3352
+Epoch 14/20, Batch 11/282, Loss: 0.3244
+Epoch 14/20, Batch 21/282, Loss: 0.3117
+Epoch 14/20, Batch 31/282, Loss: 0.2789
+Epoch 14/20, Batch 41/282, Loss: 0.2846
+Epoch 14/20, Batch 51/282, Loss: 0.3212
+Epoch 14/20, Batch 61/282, Loss: 0.3232
+Epoch 14/20, Batch 71/282, Loss: 0.3064
+Epoch 14/20, Batch 81/282, Loss: 0.2864
+Epoch 14/20, Batch 91/282, Loss: 0.2972
+Epoch 14/20, Batch 101/282, Loss: 0.3334
+Epoch 14/20, Batch 111/282, Loss: 0.3027
+Epoch 14/20, Batch 121/282, Loss: 0.2887
+Epoch 14/20, Batch 131/282, Loss: 0.3037
+Epoch 14/20, Batch 141/282, Loss: 0.3194
+Epoch 14/20, Batch 151/282, Loss: 0.3029
+Epoch 14/20, Batch 161/282, Loss: 0.2660
+Epoch 14/20, Batch 171/282, Loss: 0.2892
+Epoch 14/20, Batch 181/282, Loss: 0.3436
+Epoch 14/20, Batch 191/282, Loss: 0.3355
+Epoch 14/20, Batch 201/282, Loss: 0.3380
+Epoch 14/20, Batch 211/282, Loss: 0.3407
+Epoch 14/20, Batch 221/282, Loss: 0.3033
+Epoch 14/20, Batch 231/282, Loss: 0.3207
+Epoch 14/20, Batch 241/282, Loss: 0.2838
+Epoch 14/20, Batch 251/282, Loss: 0.3394
+Epoch 14/20, Batch 261/282, Loss: 0.3216
+Epoch 14/20, Batch 271/282, Loss: 0.3410
+Epoch 14/20, Batch 281/282, Loss: 0.3099
+Epoch 14/20, Training Loss: 0.3006
+Epoch 14/20, Validation Loss: 0.3096
+Epoch 15/20, Batch 1/282, Loss: 0.3205
+Epoch 15/20, Batch 11/282, Loss: 0.2580
+Epoch 15/20, Batch 21/282, Loss: 0.3273
+Epoch 15/20, Batch 31/282, Loss: 0.2984
+Epoch 15/20, Batch 41/282, Loss: 0.2937
+Epoch 15/20, Batch 51/282, Loss: 0.2785
+Epoch 15/20, Batch 61/282, Loss: 0.3067
+Epoch 15/20, Batch 71/282, Loss: 0.3056
+Epoch 15/20, Batch 81/282, Loss: 0.2745
+Epoch 15/20, Batch 91/282, Loss: 0.3137
+Epoch 15/20, Batch 101/282, Loss: 0.2976
+Epoch 15/20, Batch 111/282, Loss: 0.2712
+Epoch 15/20, Batch 121/282, Loss: 0.2749
+Epoch 15/20, Batch 131/282, Loss: 0.2774
+Epoch 15/20, Batch 141/282, Loss: 0.2910
+Epoch 15/20, Batch 151/282, Loss: 0.3105
+Epoch 15/20, Batch 161/282, Loss: 0.2773
+Epoch 15/20, Batch 171/282, Loss: 0.2743
+Epoch 15/20, Batch 181/282, Loss: 0.3087
+Epoch 15/20, Batch 191/282, Loss: 0.3089
+Epoch 15/20, Batch 201/282, Loss: 0.2550
+Epoch 15/20, Batch 211/282, Loss: 0.2827
+Epoch 15/20, Batch 221/282, Loss: 0.2937
+Epoch 15/20, Batch 231/282, Loss: 0.3362
+Epoch 15/20, Batch 241/282, Loss: 0.2905
+Epoch 15/20, Batch 251/282, Loss: 0.3213
+Epoch 15/20, Batch 261/282, Loss: 0.2730
+Epoch 15/20, Batch 271/282, Loss: 0.2670
+Epoch 15/20, Batch 281/282, Loss: 0.3207
+Epoch 15/20, Training Loss: 0.2990
+Epoch 15/20, Validation Loss: 0.3032
+Epoch 16/20, Batch 1/282, Loss: 0.2923
+Epoch 16/20, Batch 11/282, Loss: 0.2585
+Epoch 16/20, Batch 21/282, Loss: 0.2610
+Epoch 16/20, Batch 31/282, Loss: 0.2495
+Epoch 16/20, Batch 41/282, Loss: 0.2941
+Epoch 16/20, Batch 51/282, Loss: 0.2931
+Epoch 16/20, Batch 61/282, Loss: 0.3048
+Epoch 16/20, Batch 71/282, Loss: 0.2867
+Epoch 16/20, Batch 81/282, Loss: 0.2938
+Epoch 16/20, Batch 91/282, Loss: 0.2799
+Epoch 16/20, Batch 101/282, Loss: 0.2968
+Epoch 16/20, Batch 111/282, Loss: 0.2840
+Epoch 16/20, Batch 121/282, Loss: 0.2767
+Epoch 16/20, Batch 131/282, Loss: 0.2905
+Epoch 16/20, Batch 141/282, Loss: 0.3088
+Epoch 16/20, Batch 151/282, Loss: 0.2890
+Epoch 16/20, Batch 161/282, Loss: 0.3062
+Epoch 16/20, Batch 171/282, Loss: 0.3021
+Epoch 16/20, Batch 181/282, Loss: 0.3185
+Epoch 16/20, Batch 191/282, Loss: 0.2755
+Epoch 16/20, Batch 201/282, Loss: 0.2783
+Epoch 16/20, Batch 211/282, Loss: 0.3353
+Epoch 16/20, Batch 221/282, Loss: 0.3085
+Epoch 16/20, Batch 231/282, Loss: 0.3220
+Epoch 16/20, Batch 241/282, Loss: 0.3186
+Epoch 16/20, Batch 251/282, Loss: 0.3013
+Epoch 16/20, Batch 261/282, Loss: 0.3140
+Epoch 16/20, Batch 271/282, Loss: 0.2969
+Epoch 16/20, Batch 281/282, Loss: 0.3037
+Epoch 16/20, Training Loss: 0.2997
+Epoch 16/20, Validation Loss: 0.3103
+Epoch 17/20, Batch 1/282, Loss: 0.2907
+Epoch 17/20, Batch 11/282, Loss: 0.2880
+Epoch 17/20, Batch 21/282, Loss: 0.3280
+Epoch 17/20, Batch 31/282, Loss: 0.2881
+Epoch 17/20, Batch 41/282, Loss: 0.3245
+Epoch 17/20, Batch 51/282, Loss: 0.2791
+Epoch 17/20, Batch 61/282, Loss: 0.2839
+Epoch 17/20, Batch 71/282, Loss: 0.2826
+Epoch 17/20, Batch 81/282, Loss: 0.2989
+Epoch 17/20, Batch 91/282, Loss: 0.3190
+Epoch 17/20, Batch 101/282, Loss: 0.3088
+Epoch 17/20, Batch 111/282, Loss: 0.2771
+Epoch 17/20, Batch 121/282, Loss: 0.2933
+Epoch 17/20, Batch 131/282, Loss: 0.3170
+Epoch 17/20, Batch 141/282, Loss: 0.2664
+Epoch 17/20, Batch 151/282, Loss: 0.2709
+Epoch 17/20, Batch 161/282, Loss: 0.3537
+Epoch 17/20, Batch 171/282, Loss: 0.3021
+Epoch 17/20, Batch 181/282, Loss: 0.3083
+Epoch 17/20, Batch 191/282, Loss: 0.2944
+Epoch 17/20, Batch 201/282, Loss: 0.2945
+Epoch 17/20, Batch 211/282, Loss: 0.3339
+Epoch 17/20, Batch 221/282, Loss: 0.3107
+Epoch 17/20, Batch 231/282, Loss: 0.3022
+Epoch 17/20, Batch 241/282, Loss: 0.2745
+Epoch 17/20, Batch 251/282, Loss: 0.2779
+Epoch 17/20, Batch 261/282, Loss: 0.2842
+Epoch 17/20, Batch 271/282, Loss: 0.3571
+Epoch 17/20, Batch 281/282, Loss: 0.3172
+Epoch 17/20, Training Loss: 0.2991
+Epoch 17/20, Validation Loss: 0.3079
+Epoch 18/20, Batch 1/282, Loss: 0.3174
+Epoch 18/20, Batch 11/282, Loss: 0.3011
+Epoch 18/20, Batch 21/282, Loss: 0.2558
+Epoch 18/20, Batch 31/282, Loss: 0.3056
+Epoch 18/20, Batch 41/282, Loss: 0.3009
+Epoch 18/20, Batch 51/282, Loss: 0.3338
+Epoch 18/20, Batch 61/282, Loss: 0.3083
+Epoch 18/20, Batch 71/282, Loss: 0.2983
+Epoch 18/20, Batch 81/282, Loss: 0.2897
+Epoch 18/20, Batch 91/282, Loss: 0.2902
+Epoch 18/20, Batch 101/282, Loss: 0.2579
+Epoch 18/20, Batch 111/282, Loss: 0.2991
+Epoch 18/20, Batch 121/282, Loss: 0.2120
+Epoch 18/20, Batch 131/282, Loss: 0.2640
+Epoch 18/20, Batch 141/282, Loss: 0.3122
+Epoch 18/20, Batch 151/282, Loss: 0.3270
+Epoch 18/20, Batch 161/282, Loss: 0.3007
+Epoch 18/20, Batch 171/282, Loss: 0.3070
+Epoch 18/20, Batch 181/282, Loss: 0.2922
+Epoch 18/20, Batch 191/282, Loss: 0.2957
+Epoch 18/20, Batch 201/282, Loss: 0.2900
+Epoch 18/20, Batch 211/282, Loss: 0.2900
+Epoch 18/20, Batch 221/282, Loss: 0.2829
+Epoch 18/20, Batch 231/282, Loss: 0.2742
+Epoch 18/20, Batch 241/282, Loss: 0.3003
+Epoch 18/20, Batch 251/282, Loss: 0.3398
+Epoch 18/20, Batch 261/282, Loss: 0.2852
+Epoch 18/20, Batch 271/282, Loss: 0.3298
+Epoch 18/20, Batch 281/282, Loss: 0.3073
+Epoch 18/20, Training Loss: 0.3000
+Epoch 18/20, Validation Loss: 0.3043
+Epoch 19/20, Batch 1/282, Loss: 0.2740
+Epoch 19/20, Batch 11/282, Loss: 0.3058
+Epoch 19/20, Batch 21/282, Loss: 0.2839
+Epoch 19/20, Batch 31/282, Loss: 0.2936
+Epoch 19/20, Batch 41/282, Loss: 0.2930
+Epoch 19/20, Batch 51/282, Loss: 0.3069
+Epoch 19/20, Batch 61/282, Loss: 0.2956
+Epoch 19/20, Batch 71/282, Loss: 0.3028
+Epoch 19/20, Batch 81/282, Loss: 0.3249
+Epoch 19/20, Batch 91/282, Loss: 0.2970
+Epoch 19/20, Batch 101/282, Loss: 0.2716
+Epoch 19/20, Batch 111/282, Loss: 0.2884
+Epoch 19/20, Batch 121/282, Loss: 0.2855
+Epoch 19/20, Batch 131/282, Loss: 0.3023
+Epoch 19/20, Batch 141/282, Loss: 0.3426
+Epoch 19/20, Batch 151/282, Loss: 0.3025
+Epoch 19/20, Batch 161/282, Loss: 0.2715
+Epoch 19/20, Batch 171/282, Loss: 0.3189
+Epoch 19/20, Batch 181/282, Loss: 0.2517
+Epoch 19/20, Batch 191/282, Loss: 0.2995
+Epoch 19/20, Batch 201/282, Loss: 0.2556
+Epoch 19/20, Batch 211/282, Loss: 0.2919
+Epoch 19/20, Batch 221/282, Loss: 0.2627
+Epoch 19/20, Batch 231/282, Loss: 0.2750
+Epoch 19/20, Batch 241/282, Loss: 0.3030
+Epoch 19/20, Batch 251/282, Loss: 0.3263
+Epoch 19/20, Batch 261/282, Loss: 0.2964
+Epoch 19/20, Batch 271/282, Loss: 0.3198
+Epoch 19/20, Batch 281/282, Loss: 0.2824
+Epoch 19/20, Training Loss: 0.2984
+Epoch 19/20, Validation Loss: 0.3054
+Epoch 20/20, Batch 1/282, Loss: 0.3219
+Epoch 20/20, Batch 11/282, Loss: 0.2670
+Epoch 20/20, Batch 21/282, Loss: 0.2996
+Epoch 20/20, Batch 31/282, Loss: 0.3100
+Epoch 20/20, Batch 41/282, Loss: 0.2892
+Epoch 20/20, Batch 51/282, Loss: 0.2836
+Epoch 20/20, Batch 61/282, Loss: 0.3104
+Epoch 20/20, Batch 71/282, Loss: 0.3169
+Epoch 20/20, Batch 81/282, Loss: 0.2632
+Epoch 20/20, Batch 91/282, Loss: 0.2810
+Epoch 20/20, Batch 101/282, Loss: 0.2731
+Epoch 20/20, Batch 111/282, Loss: 0.2804
+Epoch 20/20, Batch 121/282, Loss: 0.3079
+Epoch 20/20, Batch 131/282, Loss: 0.2728
+Epoch 20/20, Batch 141/282, Loss: 0.3230
+Epoch 20/20, Batch 151/282, Loss: 0.3051
+Epoch 20/20, Batch 161/282, Loss: 0.2901
+Epoch 20/20, Batch 171/282, Loss: 0.2546
+Epoch 20/20, Batch 181/282, Loss: 0.2936
+Epoch 20/20, Batch 191/282, Loss: 0.2583
+Epoch 20/20, Batch 201/282, Loss: 0.3040
+Epoch 20/20, Batch 211/282, Loss: 0.3022
+Epoch 20/20, Batch 221/282, Loss: 0.3260
+Epoch 20/20, Batch 231/282, Loss: 0.2922
+Epoch 20/20, Batch 241/282, Loss: 0.2714
+Epoch 20/20, Batch 251/282, Loss: 0.2922
+Epoch 20/20, Batch 261/282, Loss: 0.3205
+Epoch 20/20, Batch 271/282, Loss: 0.3597
+Epoch 20/20, Batch 281/282, Loss: 0.3203
+Epoch 20/20, Training Loss: 0.2976
+Epoch 20/20, Validation Loss: 0.3243
+Model saved to audio_fingerprinter.pth
+Visualizing embeddings...
+Generating embeddings for test dataset...
+Initializing LSH...
+Indexing embeddings...
+Visualizing spectrograms...
+Evaluating model...
+
+Evaluation Results:
+Clean audio - Top-1: 16.00%, Top-5: 41.00%
+
+White Noise:
+  SNR 0 dB - Top-1: 1.00%, Top-5: 2.00%
+  SNR 5 dB - Top-1: 1.00%, Top-5: 7.00%
+  SNR 10 dB - Top-1: 2.00%, Top-5: 8.00%
+  SNR 15 dB - Top-1: 2.00%, Top-5: 9.00%
+  SNR 20 dB - Top-1: 4.00%, Top-5: 10.00%
+
+Pink Noise:
+  SNR 0 dB - Top-1: 17.00%, Top-5: 40.00%
+  SNR 5 dB - Top-1: 18.00%, Top-5: 40.00%
+  SNR 10 dB - Top-1: 17.00%, Top-5: 41.00%
+  SNR 15 dB - Top-1: 18.00%, Top-5: 42.00%
+  SNR 20 dB - Top-1: 17.00%, Top-5: 42.00%
+
+Street Noise:
+  SNR 0 dB - Top-1: 8.00%, Top-5: 22.00%
+  SNR 5 dB - Top-1: 9.00%, Top-5: 25.00%
+  SNR 10 dB - Top-1: 9.00%, Top-5: 26.00%
+  SNR 15 dB - Top-1: 9.00%, Top-5: 30.00%
+  SNR 20 dB - Top-1: 15.00%, Top-5: 35.00%
+
+Average query time: 0.0011 seconds
