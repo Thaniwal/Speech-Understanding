@@ -1,0 +1,9 @@
+Audio_ID,WER_Clean_Noisy,WER_Clean_Denoised,WER_Improvement,Clean_Transcription,Noisy_Transcription,Denoised_Transcription
+001,0.0,0.0,0.0, Please call Stella., Please call Stella., Please call Stella.
+002,0.0,0.0,0.0, Ask her to bring these things with her from the store., Ask her to bring these things with her from the store., Ask her to bring these things with her from the store.
+003,0.0,0.2,-0.2," 6 spoons of fresh snow peas, 5 thick slabs of blue cheese and maybe a snack for her brother Bob."," 6 spoons of fresh snow peas, 5 thick slabs of blue cheese and maybe a snack for her brother Bob."," 6 spoons of fresh snow peas, 5 thick slabs of blue cheese and maybe a snack will have rather bob."
+005,0.0,0.0,0.0, She can scoop these things into three red bags and we will go meet her Wednesday at the train station., She can scoop these things into three red bags and we will go meet her Wednesday at the train station., She can scoop these things into three red bags and we will go meet her Wednesday at the train station.
+006,0.11764705882352941,0.11764705882352941,0.0," When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow."," When the sunlight strikes raindrops in the air, he acts as a prism and form a rainbow."," When the sunlight strikes raindrops in the air, he acts as a prism and form a rainbow."
+007,0.0,0.08333333333333333,-0.08333333333333333, The rainbow is a division of white light into many beautiful colours., The rainbow is a division of white light into many beautiful colours., The rainbow is a division of white light into many beautiful colors.
+009,0.0,0.0,0.0," There is, according to legend, a boiling pot of gold at one end."," There is, according to legend, a boiling pot of gold at one end."," There is, according to legend, a boiling pot of gold at one end."
+010,0.0,0.0,0.0," People look, but no one ever finds it."," People look, but no one ever finds it."," People look, but no one ever finds it."

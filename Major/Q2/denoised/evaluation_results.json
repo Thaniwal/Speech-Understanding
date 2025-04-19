@@ -1,0 +1,32 @@
+{
+  "average_snr_improvement_db": 0.0,
+  "average_pesq_score": -1.0,
+  "average_wer_improvement": 0.0,
+  "set1_detailed": {},
+  "set2_detailed": {
+    "cafe.wav": {
+      "dominant_noise_freq": 495.8760309922519,
+      "denoised_path": "/content/drive/MyDrive/speech_major/Q2/denoised/set2_cafe.wav",
+      "noisy_transcription": " Earlier, GM Hughes had first quarter profit of $160.2 million or $77 cents a share.",
+      "denoised_transcription": " But you're earlier, G&HU's headfirst quarter problem won $16.2 million, or 77 cents a share."
+    },
+    "street.wav": {
+      "dominant_noise_freq": 139.96500874781304,
+      "denoised_path": "/content/drive/MyDrive/speech_major/Q2/denoised/set2_street.wav",
+      "noisy_transcription": " Base rates are the benchmark for commercial Indian pressure.",
+      "denoised_transcription": " These rates are the benchmark for commercial industries."
+    },
+    "bus.wav": {
+      "dominant_noise_freq": 143.96400899775057,
+      "denoised_path": "/content/drive/MyDrive/speech_major/Q2/denoised/set2_bus.wav",
+      "noisy_transcription": " Grates are expected to remain at those levels. Remove a little higher this week than the Treasury Department's quarterly auction.",
+      "denoised_transcription": " rates are expected to remain at those levels. We move a little higher this week. Treasury departments order the auction."
+    },
+    "ped.wav": {
+      "dominant_noise_freq": 1319.6700824793802,
+      "denoised_path": "/content/drive/MyDrive/speech_major/Q2/denoised/set2_ped.wav",
+      "noisy_transcription": " sources say at least two bidders had some doubts about city course performance numbers.",
+      "denoised_transcription": " So I was supposed to say at least two bitters had some doubts about city course importance members."
+    }
+  }
+}
